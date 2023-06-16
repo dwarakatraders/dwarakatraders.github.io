@@ -801,6 +801,7 @@ a {
 }
 
 @media (max-width: 768px) {
+	#dt_header{font-size:10px;}
     .dt-modal-content {
         width:500px
     }
@@ -825,6 +826,7 @@ a {
 }
 
 @media (max-width: 992px) and (min-width:601px) {
+		
     .dt-hide-medium {
         display:none!important
     }
