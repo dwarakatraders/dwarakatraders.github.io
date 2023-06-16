@@ -811,7 +811,7 @@ a {
     }
 }
 @media (max-width: 576px) {
-    #dt_header{font-size:15px;}
+    #dt_header{font-size:20px;}
     .dt-modal-content {
         width:500px
     }
