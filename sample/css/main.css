@@ -801,7 +801,17 @@ a {
 }
 
 @media (max-width: 768px) {
-	#dt_header{font-size:10px;}
+	#dt_header{font-size:25px;}
+    .dt-modal-content {
+        width:500px
+    }
+
+    .dt-modal {
+        padding-top: 50px
+    }
+}
+@media (max-width: 576px) {
+    #dt_header{font-size:15px;}
     .dt-modal-content {
         width:500px
     }
