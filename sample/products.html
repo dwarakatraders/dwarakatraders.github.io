@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home - Dwaraka Traders</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image" content="img/title-icon.png"/>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<!-- <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+<script src="js/jQuery3.4.1.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.dt-bar-block .dt-bar-item {padding:20px}
+</style>
+</head>
+<body>
+<!-- HEADER -->
+    <div id="1"></div>
+    <script>
+	 load("header.html");
+        function load(url)
+        {
+            req = new XMLHttpRequest();
+            req.open("GET", url, false);
+            req.send(null);
+            document.getElementById(1).innerHTML = req.responseText;
+        }
+    </script>
+	  
+<!-- !PAGE CONTENT! -->
+<div class="dt-main dt-content dt-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="dt-row-padding dt-padding-16 dt-center" id="food">
+    <div class="dt-quarter">
+      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="dt-quarter">
+      <img src="/w3images/steak.jpg" alt="Steak" style="width:100%">
+      <h3>Let Me Tell You About This Steak</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="dt-quarter">
+      <img src="/w3images/cherries.jpg" alt="Cherries" style="width:100%">
+      <h3>Cherries, interrupted</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <p>What else?</p>
+    </div>
+    <div class="dt-quarter">
+      <img src="/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="dt-row-padding dt-padding-16 dt-center">
+    <div class="dt-quarter">
+      <img src="/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
+      <h3>All I Need Is a Popsicle</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="dt-quarter">
+      <img src="/w3images/salmon.jpg" alt="Salmon" style="width:100%">
+      <h3>Salmon For Your Skin</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="dt-quarter">
+      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A Real Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="dt-quarter">
+      <img src="/w3images/croissant.jpg" alt="Croissant" style="width:100%">
+      <h3>Le French</h3>
+      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="dt-center dt-padding-32">
+    <div class="dt-bar">
+      <a href="#" class="dt-bar-item dt-button dt-hover-black">«</a>
+      <a href="#" class="dt-bar-item dt-black dt-button">1</a>
+      <a href="#" class="dt-bar-item dt-button dt-hover-black">2</a>
+      <a href="#" class="dt-bar-item dt-button dt-hover-black">3</a>
+      <a href="#" class="dt-bar-item dt-button dt-hover-black">4</a>
+      <a href="#" class="dt-bar-item dt-button dt-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="dt-container dt-padding-32 dt-center">  
+    <h3>About Me, The Food Man</h3><br>
+    <img src="/w3images/chef.jpg" alt="Me" class="dt-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="dt-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="dt-row-padding dt-padding-32">
+    <div class="dt-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="dt-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="dt-ul dt-hoverable">
+        <li class="dt-padding-16">
+          <img src="/w3images/workshop.jpg" class="dt-left dt-margin-right" style="width:50px">
+          <span class="dt-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="dt-padding-16">
+          <img src="/w3images/gondol.jpg" class="dt-left dt-margin-right" style="width:50px">
+          <span class="dt-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="dt-third dt-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="dt-tag dt-black dt-margin-bottom">Travel</span> <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">New York</span> <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">Dinner</span>
+        <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">Salmon</span> <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">France</span> <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">Drinks</span>
+        <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">Ideas</span> <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">Flavors</span> <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">Cuisine</span>
+        <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">Chicken</span> <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">Dressing</span> <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">Fried</span>
+        <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">Fish</span> <span class="dt-tag dt-dark-grey dt-small dt-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+</body>
