@@ -19,7 +19,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: .8
+    opacity: .8;
     margin: 0
 }
 
@@ -185,7 +185,7 @@ textarea {
 
 /* End extract */
 html,body {
-    font-family: Verdana,sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-size: 15px;
     line-height: 1.5
 }
@@ -219,6 +219,23 @@ h6 {
 	color:#fff;
     font-size: 18px
 }
+.dt-title-bgd
+{
+	background-color:#228B22;
+}
+.dt-title-big-bgd{
+	text-shadow: 2px 0px 0px #228B22, -2px 0px 0px #228B22, 0px 2px 0px #228B22, 0px -2px 0px #228B22; 
+}
+.dt-title-text
+{
+	font-family: 'Montserrat',sans-serif;
+	color:#fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 0;
+    margin: 0;
+    line-height: 1
+}
 .dt-footer-bgd
 {
 	background-color:#228B22;
@@ -231,12 +248,52 @@ h6 {
     margin-left: 0;
 	border-top:2px solid #fff;
 }
+.dt-elementor-row
+{	
+	background-color:#fff;
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+}
+.dt-elementor-icon
+{
+	padding-top:5px
+}
+.dt-elementor-widget-container
+{
+	font-size: 20px;
+	font-weight: 700;
+    text-transform: uppercase;
+	text-align:left;
+}
+.dt-orderbox
+{
+	color:#fff;
+	background-color:#228B22;
+	width: 100%;
+    display: flex;
+	flex-direction: row;
+}
+.dt-elementor-button-text{
+	padding: 10px 20px;
+    display: inline-block
+}
+.dt-social-icon
+{
+	text-decoration:none;font-size:36px
+	
+}
+.dt-copyright
+{
+	background-color:#000;
+	padding: 10px 20px;
+}
 .dt-serif {
     font-family: serif
 }
 
 .dt-sans-serif {
-    font-family: sans-serif
+    font-family: 'Montserrat',sans-serif
 }
 
 .dt-cursive {
@@ -248,7 +305,7 @@ h6 {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Segoe UI",Arial,sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 400;
     margin: 10px 0
 }
