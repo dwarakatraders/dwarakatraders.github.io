@@ -224,7 +224,7 @@ h6 {
 	background-color:#228B22;
 }
 .dt-title-big-bgd{
-	text-shadow: 2px 0px 0px #228B22, -2px 0px 0px #228B22, 0px 2px 0px #228B22, 0px -2px 0px #228B22; 
+	text-shadow: 2px 2px 2px #228B22, -2px 2px 2px #228B22, 2px 2px 2px #228B22, 2px -2px 2px #228B22; 
 }
 .dt-title-text
 {
