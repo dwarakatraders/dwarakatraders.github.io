@@ -221,15 +221,16 @@ h6 {
 }
 .dt-title-bgd
 {
+	padding-left: 3px;
 	background-color:#228B22;
 }
 .dt-title-big-bgd{
-	text-shadow: 2px 2px 2px #228B22, -2px 2px 2px #228B22, 2px 2px 2px #228B22, 2px -2px 2px #228B22; 
+	text-shadow: 2px 2px 2px #228B22, 2px 2px 2px #228B22, 2px 2px 2px #228B22, 2px 2px 2px #228B22; 
 }
 .dt-title-text
 {
 	font-family: 'Montserrat',sans-serif;
-	color:#fff;
+	color:#C0C0C0;
 	font-weight: 900;
 	text-transform: uppercase;
 	padding: 0;
