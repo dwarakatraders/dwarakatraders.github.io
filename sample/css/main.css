@@ -207,6 +207,9 @@ h3 {
 }
 
 h4 {
+	
+	font-weight:bold;
+	color:#fff;
     font-size: 20px
 }
 
@@ -221,6 +224,12 @@ h6 {
 }
 .dt-title-bgd
 {
+	padding-left: 3px;
+	background-color:#228B22;
+}
+.dt-prdt-name-bgd
+{
+	font-weight:bold;
 	padding-left: 3px;
 	background-color:#228B22;
 }
