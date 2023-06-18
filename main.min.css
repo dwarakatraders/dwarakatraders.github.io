@@ -1517,8 +1517,8 @@ body {
     align-items: center;
     grid-column-gap: 20px;
     overflow-wrap: anywhere;	
-	/*background-image:url(header_bg.png);
-	background-repeat:repeat;*/
+	background-image:url(header_bg.png);
+	background-repeat:repeat;
 }
 
 .ast-builder-grid-row>.site-header-section {
