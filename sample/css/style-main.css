@@ -343,6 +343,45 @@ a {
     box-shadow: none
 }
 
+.dt-grn-btn {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+	font-weight:bolder;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.dt-grn-btn:hover {
+	color:#000;	
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.dt-grn-btn {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.dt-disabled,.dt-grn-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.3
+}
+
+.dt-grn-btn.dt-disabled:hover,.dt-grn-btn:disabled:hover {
+    box-shadow: none
+}
+
 .dt-badge,.dt-tag {
     background-color: #000;
     color: #fff;
@@ -825,7 +864,7 @@ a {
         text-align: center
     }
 
-    .dt-dropdown-hover.dt-mobile,.dt-dropdown-hover.dt-mobile .dt-btn,.dt-dropdown-hover.dt-mobile .dt-button,.dt-dropdown-click.dt-mobile,.dt-dropdown-click.dt-mobile .dt-btn,.dt-dropdown-click.dt-mobile .dt-button {
+    .dt-dropdown-hover.dt-mobile,.dt-dropdown-hover.dt-mobile .dt-btn,.dt-gn-btn,.dt-dropdown-hover.dt-mobile .dt-button,.dt-dropdown-click.dt-mobile,.dt-dropdown-click.dt-mobile .dt-btn,.dt-dropdown-click.dt-mobile .dt-button {
         width: 100%
     }
 }
