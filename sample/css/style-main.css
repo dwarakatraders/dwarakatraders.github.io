@@ -625,6 +625,11 @@ a {
   letter-spacing: -1px;
   color: green;
  }
+ .dt-social-icon
+{
+	text-decoration:none;font-size:36px
+	
+}
 @media (min-width: 601px) {
     .dt-col.m1 {
         width:8.33333%
