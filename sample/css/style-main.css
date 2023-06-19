@@ -676,6 +676,44 @@ a {
 	padding-left: 3px;
 	background-color:#228B22;
 }
+.dt-elementor-row
+{	
+	background-color:#fff;
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+}
+.dt-elementor-widget-container
+{
+	font-size: 20px;
+	font-weight: 700;
+    text-transform: uppercase;
+	text-align:left;
+	text-decoration:none;
+}
+.dt-title-big-bgd{
+	text-shadow: 2px 2px 2px #228B22, 2px 2px 2px #228B22, 2px 2px 2px #228B22, 2px 2px 2px #228B22; 
+}
+.dt-title-text
+{
+	font-family: 'Montserrat',sans-serif;
+	color:#d3d3d3;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 0;
+    margin: 0;
+    line-height: 1
+}
+.dt-divider-separator
+{
+    margin: 0 auto;
+    margin-left: 0;
+	border-top:2px solid #fff;
+}
+.dt-bottom-row
+{
+    padding-left:40px;
+}
 @media (min-width: 601px) {
     .dt-col.m1 {
         width:8.33333%
