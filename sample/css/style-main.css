@@ -617,6 +617,14 @@ a {
 	background-color:#000;
 	padding: 10px 20px;
 }
+ .dt-header
+ {
+  font-family: "Karma", sans-serif;
+  font-size: 20px;
+  font-weight:700;
+  letter-spacing: -1px;
+  color: green;
+ }
 @media (min-width: 601px) {
     .dt-col.m1 {
         width:8.33333%
