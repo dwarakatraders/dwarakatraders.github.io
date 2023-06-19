@@ -14,7 +14,13 @@ html {
 }
 
 body {
-    margin: 0
+	background-color: transparent;
+    background-image: url(../img/bgd.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+    margin: 0;
 }
 
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
@@ -713,6 +719,9 @@ a {
 .dt-bottom-row
 {
     padding-left:40px;
+}
+.dt-bgd-white{
+	background-color:#fff;
 }
 @media (min-width: 601px) {
     .dt-col.m1 {
