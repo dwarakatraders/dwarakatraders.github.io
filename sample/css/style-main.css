@@ -19,7 +19,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: .8;
+    opacity: .9	;
     margin: 0;
 }
 
@@ -185,7 +185,8 @@ textarea {
 
 /* End extract */
 html,body {
-    font-family: Verdana,sans-serif;
+    font-family: 'Montserrat',sans-serif;
+	color:#000;
     font-size: 15px;
     line-height: 1.5
 }
@@ -235,7 +236,8 @@ h6 {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Karma",Arial,sans-serif;
+    font-family: "Montserrat",Arial,sans-serif;
+    font-family: "Montserrat",Arial,sans-serif;
     font-weight: 400;
     margin: 10px 0
 }
@@ -718,7 +720,7 @@ a {
 }
 .dt-bottom-row
 {
-    padding-left:40px;
+    padding-left:25px;
 }
 .dt-bgd-white{
 	background-color:#fff;
