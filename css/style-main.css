@@ -14,13 +14,13 @@ html {
 }
 
 body {
-	 background-color: transparent;
+	background-color: transparent;
     background-image: url(../img/bgd.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 1;
-    margin: 0
+    opacity: .9	;
+    margin: 0;
 }
 
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
@@ -186,6 +186,7 @@ textarea {
 /* End extract */
 html,body {
     font-family: 'Montserrat',sans-serif;
+	color:#000;
     font-size: 15px;
     line-height: 1.5
 }
@@ -207,9 +208,6 @@ h3 {
 }
 
 h4 {
-	
-	font-weight:bold;
-	color:#fff;
     font-size: 20px
 }
 
@@ -218,93 +216,15 @@ h5 {
 }
 
 h6 {
-	font-weight:bold;
-	color:#fff;
-    font-size: 18px
-}
-.dt-title-bgd
-{
-	padding-left: 3px;
-	background-color:#228B22;
-}
-.dt-prdt-name-bgd
-{
-	font-weight:bold;
-	padding-left: 3px;
-	background-color:#228B22;
-}
-.dt-title-big-bgd{
-	text-shadow: 2px 2px 2px #228B22, 2px 2px 2px #228B22, 2px 2px 2px #228B22, 2px 2px 2px #228B22; 
-}
-.dt-title-text
-{
-	font-family: 'Montserrat',sans-serif;
-	color:#d3d3d3;
-	font-weight: 900;
-	text-transform: uppercase;
-	padding: 0;
-    margin: 0;
-    line-height: 1
-}
-.dt-footer-bgd
-{
-	background-color:#228B22;
-	color:#fff;
+    font-size: 16px
 }
 
-.dt-divider-separator
-{
-    margin: 0 auto;
-    margin-left: 0;
-	border-top:2px solid #fff;
-}
-.dt-elementor-row
-{	
-	background-color:#fff;
-    width: 100%;
-    display: flex;
-	flex-direction: row;
-}
-.dt-elementor-icon
-{
-	padding-top:5px
-}
-.dt-elementor-widget-container
-{
-	font-size: 20px;
-	font-weight: 700;
-    text-transform: uppercase;
-	text-align:left;
-}
-.dt-orderbox
-{
-	color:#fff;
-	background-color:#228B22;
-	width: 100%;
-    display: flex;
-	flex-direction: row;
-}
-.dt-elementor-button-text{
-	padding: 10px 20px;
-    display: inline-block
-}
-.dt-social-icon
-{
-	text-decoration:none;font-size:36px
-	
-}
-.dt-copyright
-{
-	text-align:center;
-	background-color:#000;
-	padding: 10px 20px;
-}
 .dt-serif {
     font-family: serif
 }
 
 .dt-sans-serif {
-    font-family: 'Montserrat',sans-serif
+    font-family: sans-serif
 }
 
 .dt-cursive {
@@ -316,7 +236,8 @@ h6 {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Montserrat',sans-serif;
+    font-family: "Montserrat",Arial,sans-serif;
+    font-family: "Montserrat",Arial,sans-serif;
     font-weight: 400;
     margin: 10px 0
 }
@@ -427,6 +348,45 @@ a {
 }
 
 .dt-btn.dt-disabled:hover,.dt-btn:disabled:hover {
+    box-shadow: none
+}
+
+.dt-grn-btn {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+	font-weight:bolder;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.dt-grn-btn:hover {
+	color:#000;	
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.dt-grn-btn {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.dt-disabled,.dt-grn-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.3
+}
+
+.dt-grn-btn.dt-disabled:hover,.dt-grn-btn:disabled:hover {
     box-shadow: none
 }
 
@@ -693,7 +653,78 @@ a {
 .dt-col.s12 {
     width: 99.99999%
 }
+.dt-footer-bgd
+{
+	background-color:#228B22;
+	color:#fff;
+}
+.dt-copyright
+{
+	text-align:center;
+	background-color:#000;
+	padding: 10px 20px;
+}
+ .dt-header
+ {
+  font-family: "Karma", sans-serif;
+  font-size: 20px;
+  font-weight:700;
+  letter-spacing: -1px;
+  color: green;
+ }
+ .dt-social-icon
+{
+	text-decoration:none;font-size:36px
+	
+}
 
+.dt-title-bgd
+{
+	color:white;
+	padding-left: 3px;
+	background-color:#228B22;
+}
+.dt-elementor-row
+{	
+	background-color:#fff;
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+}
+.dt-elementor-widget-container
+{
+	font-size: 20px;
+	font-weight: 700;
+    text-transform: uppercase;
+	text-align:left;
+	text-decoration:none;
+}
+.dt-title-big-bgd{
+	text-shadow: 2px 2px 2px #228B22, 2px 2px 2px #228B22, 2px 2px 2px #228B22, 2px 2px 2px #228B22; 
+}
+.dt-title-text
+{
+	font-family: 'Montserrat',sans-serif;
+	color:#d3d3d3;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 0;
+    margin: 0;
+    line-height: 1
+}
+.dt-divider-separator
+{
+    margin: 0 auto;
+    margin-left: 0;
+	border-top:2px solid #fff;
+}
+.dt-bottom-row
+{
+    padding-left:25px;
+}
+.dt-bgd-white{
+	background-color:#fff;
+}
 @media (min-width: 601px) {
     .dt-col.m1 {
         width:8.33333%
@@ -882,24 +913,12 @@ a {
         text-align: center
     }
 
-    .dt-dropdown-hover.dt-mobile,.dt-dropdown-hover.dt-mobile .dt-btn,.dt-dropdown-hover.dt-mobile .dt-button,.dt-dropdown-click.dt-mobile,.dt-dropdown-click.dt-mobile .dt-btn,.dt-dropdown-click.dt-mobile .dt-button {
+    .dt-dropdown-hover.dt-mobile,.dt-dropdown-hover.dt-mobile .dt-btn,.dt-gn-btn,.dt-dropdown-hover.dt-mobile .dt-button,.dt-dropdown-click.dt-mobile,.dt-dropdown-click.dt-mobile .dt-btn,.dt-dropdown-click.dt-mobile .dt-button {
         width: 100%
     }
 }
 
 @media (max-width: 768px) {
-	#dt_header{font-size:25px;}
-    .dt-modal-content {
-        width:500px
-    }
-
-    .dt-modal {
-        padding-top: 50px
-    }
-}
-@media (max-width: 576px) {
-    #dt_header{font-size:20px;}
-	#imgheader{height:60px; width:60px;}
     .dt-modal-content {
         width:500px
     }
@@ -924,7 +943,6 @@ a {
 }
 
 @media (max-width: 992px) and (min-width:601px) {
-		
     .dt-hide-medium {
         display:none!important
     }
@@ -952,7 +970,6 @@ a {
 }
 
 .dt-top {
-	/*box-shadow:0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);*/
     top: 0
 }
 
@@ -1855,22 +1872,4 @@ a {
 
 .dt-border-pale-blue,.dt-hover-border-pale-blue:hover {
     border-color: #e7ffff!important
-}
-
-.textglow {
-  font-size: 25px;
-  color: green;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px #ADFF2F, 0 0 40px #ADFF2F, 0 0 50px #ADFF2F, 0 0 60px #ADFF2F, 0 0 70px #ADFF2F;
-  }
-  to {
-    text-shadow: 0 0 20px green, 0 0 30px #ADFF2F, 0 0 40px #ADFF2F, 0 0 50px #ADFF2F, 0 0 60px #ADFF2F, 0 0 70px #ADFF2F, 0 0 80px #ADFF2F;
-  }
 }
