@@ -736,6 +736,37 @@ a {
 	font-size:24px;
 }
 
+.dt-container {
+  }
+
+details {
+  margin-bottom: 20px;
+}
+
+details summary {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+details summary::after {
+  position: absolute;
+  right: 0;
+  transition: transform 0.6s ease-in;
+}
+
+details[open] summary::after {
+}
+
+details div {
+   transform: translateY(-10px);
+  transition: all 0.2s ease-in;
+}
+
+details[open] div {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @media (min-width: 601px) {
     .dt-col.m1 {
         width:8.33333%
