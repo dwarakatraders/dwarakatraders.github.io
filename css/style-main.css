@@ -1,4 +1,4 @@
-/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+/* dt.CSS 4.15 June 2023 by Umaya */
 html {
     box-sizing: border-box
 }
@@ -725,6 +725,17 @@ a {
 .dt-bgd-white{
 	background-color:#fff;
 }
+.dt-about-content
+{
+	text-align:justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.dt-about-title
+{
+	font-size:24px;
+}
+
 @media (min-width: 601px) {
     .dt-col.m1 {
         width:8.33333%
