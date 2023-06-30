@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home - Dwaraka Traders</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Home - Dwaraka Traders"/>
+<meta property="og:description" content="Highly Quality Of Palm Products"/>
+<meta property="og:url" content="https://dwarakatraders.github.io/"/>
+<meta property="og:site_name" content="Dwaraka Traders"/>
+<meta property="og:image" content="img/title-icon.png"/>
+<link rel="icon" href="img/title-icon.png" sizes="32x32" />
+<link rel="stylesheet" href="css/style-main.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.dt-bar-block .dt-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="dt-sidebar dt-bar-block dt-card dt-top dt-xlarge dt-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="dt_close()"
+  class="dt-bar-item dt-button">x</a>
+   <!-- <a href="index.html" onclick="dt_close()" class="dt-bar-item dt-button">Home</a>
+  <a href="products.html" onclick="dt_close()" class="dt-bar-item dt-button">Products</a>
+  <a href="about.html" onclick="dt_close()" class="dt-bar-item dt-button">About Product</a>
+  <a href="gallary.html" onclick="dt_close()" class="dt-bar-item dt-button">Gallary</a> -->
+  
+  <a href="https://dwarakatraders.github.io/" onclick="dt_close()" class="dt-bar-item dt-button">Home</a>
+  <a href="products" onclick="dt_close()" class="dt-bar-item dt-button">Products</a>
+  <a href="about" onclick="dt_close()" class="dt-bar-item dt-button">About Product</a>
+  <a href="gallary" onclick="dt_close()" class="dt-bar-item dt-button">Gallary</a>
+</nav>
+
+<!-- Top menu -->
+<div class="dt-top">
+  <div class="dt-white dt-xlarge" style="max-width:1200px;margin:auto">
+    <div class="dt-button dt-padding-16 dt-left" onclick="dt_open()">&#9776;</div>	
+	<div class="dt-padding-16 dt-right"><img width="40px" height="40px" src="img/logo.png"></img></div>
+    <div class="dt-center dt-padding-16"><div class="dt-header">துவாரகா இயற்கை அங்காடி</div></div>
+  </div>
+</div>
+ 
+<!-- !PAGE CONTENT! -->
+<div class="dt-main dt-content dt-padding" style="max-width:1200px;margin-top:100px">
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 7</div>
+			<img src="img/climbing-tree-1.jpg" style="width:100%">
+			<div class="slideshow-text">பனை சீவுபவர் - Taking Palm Juice</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 7</div>
+			<img src="img/climbing-tree-2.jpg" style="width:100%">
+			<div class="slideshow-text">பனை ஏறி - Palm Tree Climber</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 7</div>
+			<img src="img/karupatti-anda.jpg" style="width:100%">
+			<div class="slideshow-text">கருப்பட்டி அண்டா - Palm Jaggery Making Pot</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 7</div>
+			<img src="img/karupatti-cooling-1.jpg" style="width:100%">
+			<div class="slideshow-text">கருப்பட்டி பாகு குளிர்வித்தல் - Cooling liquid Palm Jaggery</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 7</div>
+			<img src="img/karupatti-cooling-2.jpg" style="width:100%">
+			<div class="slideshow-text">கருப்பட்டி பாகு குளிர்வித்தல் - Cooling liquid Palm Jaggery</div>
+			</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">6 / 7</div>
+			<img src="img/vidili-1.jpg" style="width:100%">
+			<div class="slideshow-text">விடிலி - Palm Jaggery Making House</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">7 / 7</div>
+			<img src="img/vidili-2.jpg" style="width:100%">
+			<div class="slideshow-text">விடிலி - Palm Jaggery Making House</div>
+		</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</div>
+ <!-- Footer -->
+  <footer class="dt-padding-32 dt-footer-bgd">
+	<div class="dt-row-padding">
+		<div class="dt-third">
+			<h2>Opening Hours</h2> <div><p><strong>Monday – Sunday</strong> 5am &#8211; 9pm</p></div>
+		</div>
+  
+		<div class="dt-third">
+			<h2>Contact</h2> 
+			<div>
+				<p><strong>Address:</strong> Dwaraka traders, Vembar, Tuticorin Dist, TN</p>
+				<p><strong>Phone:</strong> +91 82207 27647</p>
+				<p><strong>Email:</strong> <!--<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="aec7c0c8c1eecccfdccccbdc80cdc1c3">[email&#160;protected]</a>-->dwaraka.vembar@gmail.com</p>
+			</div>
+		</div>
+		
+		<div class="dt-third">
+			<h2>Keep In Touch</h2> 
+			<div>
+				<a href="https://www.facebook.com/avmuthunadar.nadar" class="dt-social-icon">				
+					<i class="fa fa-facebook-square"></i>
+				</a>
+				<a href="#" class="dt-social-icon">				
+					<i class="fa fa-twitter-square"></i>
+				</a>
+				<a href="https://goo.gl/maps/7Rda3LJR9TseeJ6g6" class="dt-social-icon">							
+					<i class="fa fa-google"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+    <div class="dt-copyright">
+      <p>Copyright © 2023 Dwaraka Traders | All rights reserved.</p>
+    </div>
+	
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function dt_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function dt_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
