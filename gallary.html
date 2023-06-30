@@ -54,12 +54,96 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 			<h3>Gallary</h3> 
 		</div>
 	</div>
-<div class="dt-bgd-white">
-<br><br><br>
-<p>COMING SOON</p>
-<br><br><br>
-<div>
-<!-- Footer -->
+<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 7</div>
+			<img src="img/climbing-tree-1.jpg" style="width:100%"></img>
+			<div class="slideshow-text">பனை சீவுபவர் - Taking Palm Juice</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 7</div>
+			<img src="img/climbing-tree-2.jpg" style="width:100%"></img>
+			<div class="slideshow-text">பனை ஏறி - Palm Tree Climber</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 7</div>
+			<img src="img/karupatti-anda.jpg" style="width:100%"></img>
+			<div class="slideshow-text">கருப்பட்டி அண்டா - Palm Jaggery Making Pot</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 7</div>
+			<img src="img/karupatti-cooling-1.jpg" style="width:100%"></img>
+			<div class="slideshow-text">கருப்பட்டி பாகு குளிர்வித்தல் - Cooling liquid Palm Jaggery</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 7</div>
+			<img src="img/karupatti-cooling-2.jpg" style="width:100%"></img>
+			<div class="slideshow-text">கருப்பட்டி பாகு குளிர்வித்தல் - Cooling liquid Palm Jaggery</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">6 / 7</div>
+			<img src="img/vidili-1.jpg" style="width:100%"></img>
+			<div class="slideshow-text">விடிலி - Palm Jaggery Making House</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">7 / 7</div>
+			<img src="img/vidili-2.jpg" style="width:100%"></img>
+			<div class="slideshow-text">விடிலி - Palm Jaggery Making House</div>
+		</div>
+
+	</div>
+	<a class="prev" onclick="plusSlides(-1)">❮❮</a>
+	<a class="next" onclick="plusSlides(1)">❯❯</a>
+
+	
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+ <!-- Footer -->
   <footer class="dt-padding-32 dt-footer-bgd">
 	<div class="dt-row-padding">
 		<div class="dt-third">
@@ -71,7 +155,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 			<div>
 				<p><strong>Address:</strong> Dwaraka traders, Vembar, Tuticorin Dist, TN</p>
 				<p><strong>Phone:</strong> +91 82207 27647</p>
-				<p><strong>Email:</strong> dwaraka.vembar@gmail.com</p>
+				<p><strong>Email:</strong> <!--<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="aec7c0c8c1eecccfdccccbdc80cdc1c3">[email&#160;protected]</a>-->dwaraka.vembar@gmail.com</p>
 			</div>
 		</div>
 		
@@ -81,8 +165,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 				<a href="https://www.facebook.com/avmuthunadar.nadar" class="dt-social-icon">				
 					<i class="fa fa-facebook-square"></i>
 				</a>
-				<a href="mailto:dwaraka.vembar@gmail.com" class="dt-social-icon">				
-					<i class="fa fa-envelope"></i>
+				<a href="#" class="dt-social-icon">				
+					<i class="fa fa-twitter-square"></i>
 				</a>
 				<a href="https://goo.gl/maps/7Rda3LJR9TseeJ6g6" class="dt-social-icon">							
 					<i class="fa fa-google"></i>
