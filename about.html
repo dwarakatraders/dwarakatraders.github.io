@@ -20,8 +20,30 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .dt-bar-block .dt-bar-item {padding:20px}
 </style>
+<script>
+
+function changeLanguage(n) 
+{
+
+	if(n == 1)
+	{
+		document.getElementById(n).style.display = "block";	
+		document.getElementById("2").style.display = "none";
+	} 
+	else if( n == 2)
+	{
+		document.getElementById(n).style.display = "block";
+		document.getElementById("1").style.display = "none";
+	}
+	else
+	{
+		document.getElementById("1").style.display = "block";
+		document.getElementById("2").style.display = "none";
+	}
+}
+</script>
 </head>
-<body>
+<body onload="changeLanguage(1)">
 
 <!-- Sidebar (hidden by default) -->
 <nav class="dt-sidebar dt-bar-block dt-card dt-top dt-xlarge dt-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
@@ -48,8 +70,122 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </div>
  
 <!-- !PAGE CONTENT! -->
-<div class="dt-main dt-content dt-padding" style="max-width:1200px;margin-top:100px">
-	<div class="dt-container">
+<div class="dt-main dt-content dt-padding dt-bgd-white" style="max-width:1200px;margin-top:100px">
+<div class="dt-divider-separator">
+		<div class="dt-title-dark-bgd">
+			<h3>About Our Products</h3> 
+		</div>
+	</div>
+
+	<div class="dt-right"><a href="#" onclick="changeLanguage(1)" class="dt-link-text"> தமிழ்</a>&nbsp; &#8651; &nbsp;<a href="#" onclick="changeLanguage(2)" class="dt-link-text"> English</a></div><br><br>
+	<div class="dt-container" id="1" style="display:none">
+
+		<details>
+			<summary class="dt-title-bgd dt-about-title">கருப்பட்டி செய்யும் செயல்முறை</summary>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;பனை மரம் ஏறுபவர், கருப்பட்டி (பனை வெல்லம்) செய்ய பனை மரத்திலிருந்து பதனி அல்லது பனை சாற்றை தினமும் சேகரிகிறார். பனை வெல்லம் தயாரிப்பது ஒரு சிறிய அளவிலான தொழிலாகும், இது தமிழ்நாட்டில் தூத்துக்குடி மற்றும் திருநெல்வேலி மாவட்டங்களில் அதிகம் செய்யப்படுகிறது.</p></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;பனை மரங்களில் இருந்து சேகரிக்கப்பட்ட பனை சாறு அல்லது பதனி வடிகட்டபட்டு ஒரு பெரிய பாத்திரத்தில் 2 மணி நேரத்திற்கும் மேலாக கொதிக்க வைக்கப்படுகிறது. பாகு தடிமனாகவும் பிசுபிசுப்பாகவும் மாறும் வரை, உச்சி வெயிலின் கீழ், பனை ஓலைகளால் ஆன ஒரு குடிசையில், பனை வெல்லம் தயாரிப்பவர் இந்த பாகை தொடர்ந்து மணிக்கணக்கில் கிளறி விடுகிறார். தண்ணீரில் குளிரவைக்கப்படும் போது பாகு கரையாமல் உருண்டையாக மாறும் இடத்தில் கொதிக்கும் பாகை அடுப்பில் இருந்து அகற்றுகிறார். இப்போது பாகு  தேங்காய் ஓடுகளில் ஊற்ற தயாராக உள்ளது. பாகு  தேங்காய் ஓடுகளில் ஊற்ற பட்டு, குளிரவைக்கப்படுகிறது. இதன் நிறம் சந்தையில் கிடைக்கும் கருப்பு நிறத்திற்கு மாறாக கிட்டத்தட்ட வெளிர் மஞ்சள் நிறத்தில் இருக்கும். கருப்பு நிறமானது, மாவு மற்றும் சர்க்கரை போன்ற சேர்க்கைகளைக் கொண்டவை.</p></div>
+			</div>
+		</details>
+
+		<details>
+			<summary class="dt-title-bgd dt-about-title">கருப்பட்டியின் நன்மைகள்</summary>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><br><b>சத்தானது</b></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;கருப்பட்டி தொடர்ந்து உட்கொள்ளும் போது, ​​ஹீமோகுளோபினை அதிகரிக்கிறது மற்றும் இரத்த சோகைக்கு சிகிச்சையளிக்கிறது. இதில் மெக்னீசியம் அதிகமாக உள்ளது மற்றும் நரம்பு மண்டலத்தை சீராக்க உதவுகிறது. இதில் உள்ள கால்சியம் ஆரோக்கியமான எலும்புகளை உருவாக்குவதற்கும் பராமரிப்பதற்கும் உதவுகிறது. இதில் பொட்டாசியம் உள்ளது, இது இதய ஆரோக்கியத்தை மேம்படுத்துகிறது மற்றும் பல நன்மைகளைக் கொண்டுள்ளது. கூடுதலாக, இது நோயெதிர்ப்பு மண்டலத்தை பலப்படுத்துகிறது, இரத்தம் தொடர்பான மற்றும் பிற நோய்களைத் தடுக்கிறது.</p></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><b>உட்புற உடலை சுத்தப்படுத்துகிறது</b></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;கருப்பட்டி, வெள்ளை சர்க்கரைக்கு ஆரோக்கியமான மாற்றாகும். இது சுவாசப் பாதைகள், வயிறு, நுரையீரல் மற்றும் குடல் உட்பட உடலின் ஒவ்வொரு பகுதியிலிருந்தும் நச்சுகளை நீக்கி, உங்களை ஆரோக்கியமாக வைக்கிறது.</p></div>
+			</div>		
+			<div class="dt-elementor-row">	
+				<div class="dt-about-content"><b>செரிமான மேம்பாடு</b></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;கருப்பட்டி செரிமான பிரச்சனைகளுக்கு உதவும். குடல் இயக்கத்தை கட்டுப்படுத்தி மலச்சிக்கல் மற்றும் அஜீரணத்தை குணப்படுத்துகிறது மற்றும் அசுத்தங்களை நீக்கி செரிமான அமைப்பை சுத்தப்படுத்துகிறது. மேலும், மதிய உணவுக்கு பின் எடுத்துக்கொள்ள படும் ஒரு நடுத்தர அளவிலான வெல்லம் வயிற்றை குளிர்ச்சியாக வைத்திருக்கும்.</p></div>
+			</div>
+			<div class="dt-elementor-row">	
+				<div class="dt-about-content"><b>கர்ப்ப காலத்தில் நன்மை பயக்கும் </b></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;இதில் ஆன்டி-ஆக்ஸிடன்ட் அதிகம் உள்ளது. கருப்பட்டி செல் சேதம் மற்றும் டிஎன்ஏ சிதைவை தடுக்குகிறது. கருப்பட்டி கருவுற்றிருக்கும் போது ஏற்படும் உடல்நல பாதிப்புகளில் இருந்து கருவை பாதுகாக்கிறது.</p></div>
+			</div>
+			<div class="dt-elementor-row">	
+				<div class="dt-about-content"><b>எடையை குறைக்க உதவுகிறது</b></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;இது வியக்கத்தக்க அளவு எடை இழப்பு திறனைக் கொண்டுள்ளது. இது ஒரு பொட்டாசியம் சப்ளையர் என்பதால் மின்னாற்பகுப்பு சமநிலையை பராமரிக்க உதவுகிறது மற்றும் நீர் தக்கவைப்பை குறைக்கிறது. இந்த காரணிகள் அனைத்தும் எடை இழப்பிற்கு முக்கியமானவை. </p></div>
+			</div>
+			<div class="dt-elementor-row">	
+				<div class="dt-about-content"><b>மூட்டு வலியைப் போக்க உதவுகிறது</b></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;கருப்பட்டி எலும்புகளை வலுப்படுத்துவதில் நன்மை பயக்கும், இது மூட்டு வலி மற்றும் கீல்வாதம் உள்ளிட்ட பிரச்சனைகளை போக்க உதவுகிறது. மேலும், இதில் கால்சியம் அதிகமாக உள்ளது, இது எலும்புகளின் ஆரோக்கியத்தை மேம்படுத்தவும் பராமரிக்கவும் உதவுகிறது. </p></div>
+			</div>
+			<div class="dt-elementor-row">	
+				<div class="dt-about-content"><b>இருமல் மற்றும் சளியைக் குணப்படுத்தும் </b></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;வெதுவெதுப்பான நீர் அல்லது தேநீரில் கருப்பட்டி சேர்த்து பருகுவது சளி தொடர்பான அறிகுறிகளை எதிர்த்துப் போராட உதவுகிறது. அடுத்த முறை நீங்கள் தும்மும்போது அல்லது இருமும்போது ஒரு சிட்டிகை கருப்பட்டி எடுத்துக் கொள்ளுங்கள். இது நாள்பட்ட இருமலையும் குணப்படுத்துகிறது. மேலும், தொண்டையின் மென்மையான திசுக்கள் கருப்பட்டியால் தளர்வு பெறுகின்றன, இது தொண்டை எரிச்சலைக் குறைக்கிறது.</p></div>
+			</div>
+		</details>
+		
+		<details>
+			<summary class="dt-title-bgd dt-about-title">சமையல் வகைகளில் கருப்பட்டியின் பயன்கள்</summary>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;1.	இனிப்புகள், பானங்கள் மற்றும் உணவுகளில், நீங்கள் சர்க்கரை அல்லது கரும்பு வெல்லத்தைப் போலவே இதையும் பயன்படுத்தலாம்.</p></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;2.	கருப்பட்டியை நொறுக்கி உணவுகளில் பயன்படுத்த வேண்டும்.</p></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;3.	கருப்பட்டி பாகு சுவையான ஐஸ்கிரீம் மற்றும் டோஸ்ட் டாப்பிங் ஆகும். இது ரொட்டிகளுடன் சேர்த்து கொள்ள நன்றாக இருக்கும்.</p></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;4.	கருப்பட்டியை பாகுவாக மாற்றி கொண்டால் தேவைப்படும் உணவுகளில், சர்க்கரைக்கு பதிலாக வெல்லத்தை கருப்பட்டி பாகுவை பயன்படுத்தலாம்..</p></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;5.	நீங்கள் சூடான பாலில் இந்த கருப்பட்டி பாகைப் பயன்படுத்துகிறீர்கள் என்றால், அதைச் சேர்ப்பதற்கு முன் அது குளிர்ச்சியாகும் வரை காத்திருக்கவும். இதனால் பால் திரியாது.</p></div>
+			</div>
+		</details>
+		
+		<details>
+			<summary class="dt-title-bgd dt-about-title">கருப்பட்டி v/s சர்க்கரை</summary>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;கருப்பட்டி மற்றும் சர்க்கரைக்கு இடையே உள்ள மிகத் தெளிவான முக்கிய வேறுபாடு, கருப்பட்டி பனை சாற்றிலிருந்து தயாரிக்கப்படுகிறது, மேலும் கரும்புச் சாற்றில் இருந்து கரும்பு சர்க்கரை தயாரிக்கப்படுகிறது.</p></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;இரண்டுக்கும் இடையே உள்ள இரண்டாவது மிகத் தெளிவான வேறுபாடு என்னவென்றால், கருப்பட்டி கரும்புச் சர்க்கரையை விட குறைவான இனிப்பு கொண்டது. கருப்பட்டியில் அதிக ஊட்டச்சத்துக்கள் இருப்பதாலும், கரும்புச் சர்க்கரையில் பொதுவாக  சத்துக்கள் இல்லாததாலும் இனிப்பு பற்றாக்குறை இருக்கலாம்.</p></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;கருப்பட்டி கரும்பு சர்க்கரையை விட குறைந்த கிளைசெமிக்(glycemic) குறியீட்டைக் கொண்டுள்ளது, அதாவது இது உங்கள் இரத்த சர்க்கரை அளவை எளிதாக உயர்த்தாது. கருப்பட்டியில் கிளைசெமிக் குறியீட்டு எண் 35, கரும்பு சர்க்கரையின் கிளைசெமிக் குறியீடு 60 ஆகும். கருப்பட்டி உங்கள் இரத்த சர்க்கரை அளவைக் குறைக்க உதவுகிறது, ஏனெனில் இது இன்சுலின் இயற்கையான மூலமாகும்.</p></div>
+			</div>
+		</details>
+		
+		<details>
+			<summary class="dt-title-bgd dt-about-title">கருப்பட்டியை சேமிப்பதற்கான குறிப்புகள்</summary>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><br><b>கருப்பட்டி பாகு: </b></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;கருப்பட்டி பாகுகை எப்போதும் காற்று புகாத கொள்கலனில் வைக்கவும். மூடி திறந்தவுடன்  இதை குளிர்சாதன பெட்டியில்  சேமித்து வைக்க வேண்டும். ஜாடியில் இருந்து இதை எடுக்க, எப்போதும் சுத்தமான, உலர்ந்த கரண்டியைப் பயன்படுத்தவும்.</p></div>
+			</div>
+			<div class="dt-elementor-row">	
+				<div class="dt-about-content"><b>கருப்பட்டி: </b></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;கருப்பட்டியை காற்று புகாத மூடிய கொள்கலன்களில் வைக்க அறிவுறுத்துவோம். ஈரப்பதம் மற்றும் காற்றுடனான தொடர்பு குறைந்தபட்சமாக இருக்க வேண்டும். வெல்லம் நசுக்க எளிதானது. உங்கள் விரல்களால் கூட இந்த வெல்லத்தின் நடுத்தர அளவிலான துண்டுகளை உடைக்க முடியும்.</p></div>
+			</div>
+		</details>
+
+	</div>
+	<div class="dt-container" id="2" style="display:none">
 
 		<details>
 			<summary class="dt-title-bgd dt-about-title">Palm Jaggery Making Process</summary>
@@ -76,16 +212,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;It's a healthier alternative to white sugar that helps to cleanse the entire system. It removes toxins from every body region, including the respiratory tracts, stomach, lungs, and intestines, leaving you healthy.</p></div>
 			</div>
 			<div class="dt-elementor-row">	
-				<div class="dt-about-content"><b>Skin Nourishment </b></div>
-			</div>
-			<div class="dt-elementor-row">
-				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;Because jaggery is high in nutrients, it aids in the development of healthy and smooth skin. It also helps prevent pimples, wrinkles, and acne, resulting in naturally radiant skin. It also prevents dark spots and wrinkles, delaying the indications of ageing. So, instead of using cosmetics, women, try this natural remedy.</p></div>
-			</div>
-			<div class="dt-elementor-row">	
 				<div class="dt-about-content"><b>Digestion Improvement</b></div>
 			</div>
 			<div class="dt-elementor-row">
-				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;Karupatti can help with digestive issues. It cures constipation and indigestion by controlling bowel movements and purifies the system by removing impurities. In addition, a medium-sized piece of jaggery keeps the stomach cool throughout the summer.</p></div>
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;Karupatti can help with digestive issues. It cures constipation and indigestion by controlling bowel movements and purifies the system by removing impurities. In addition, Taking a medium-sized piece of jaggery after lunch, keeps the stomach cool throughout the day.</p></div>
 			</div>
 			<div class="dt-elementor-row">	
 				<div class="dt-about-content"><b>Boosts Energy </b></div>
@@ -139,9 +269,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 		</details>
 		
 		<details>
-			<summary class="dt-title-bgd dt-about-title">Palm Jaggery v/s Jaggery</summary>
+			<summary class="dt-title-bgd dt-about-title">Palm Jaggery v/s Sugar</summary>
 			<div class="dt-elementor-row">
-				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;The first difference between both is, that Karupatti is derived from the palm trees whereas Jaggery is obtained from the sugarcane. Normal jaggery is enjoyed in its crystalised form, having been prepared by boiling, churning, and sifting it using age-old processes. At the same time, karupatti is manufactured by extracting palm sap, which is then cooked and churned by hand.</p></div>
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;The most obvious major difference between Palm Jaggery and Sugar is their sources of origin. They are technically both plant based sources of sugar, but palm jaggery is made by reducing the sap of palm juice, and cane sugar is made by reducing sugar from cane juice.</p></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;The second most obvious difference between the two is that Palm Jaggery is actually much less sweet than cane sugar. The lack of sweetness may be due to the fact that Palm Jaggery still contains nutrients, while cane sugar typically doesn’t have many nutrients at all.</p></div>
+			</div>
+			<div class="dt-elementor-row">
+				<div class="dt-about-content"><p>&nbsp;&nbsp;&nbsp;Palm Jaggery also possesses a lower glycemic index than cane sugar, which means it doesn’t raise your blood sugar levels as easily. Palm Jaggery has a glycemic index of 35 while cane sugar has glycemic index of 60. Palm Jaggery also helps to lower your blood sugar levels because it is a natural source of insulin.</p></div>
 			</div>
 		</details>
 		
@@ -161,7 +297,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 			</div>
 		</details>
 
-</div>
+	</div>
+
+
  <!-- Footer -->
   <footer class="dt-padding-32 dt-footer-bgd">
 	<div class="dt-row-padding">
